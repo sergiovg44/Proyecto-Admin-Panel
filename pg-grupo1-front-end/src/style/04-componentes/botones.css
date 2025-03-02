@@ -1,0 +1,119 @@
+.boton-inicio {
+  display: flex;
+  justify-content: center;
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--Primary);
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    color: var(--Beige-claro);
+  }
+  :hover {
+    cursor: pointer;
+  }
+}
+.boton-sus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  background-color: var(--Primary);
+  border-radius: 1.3rem;
+  width: 9.5rem;
+  height: 2.5rem;
+  text-align: center;
+  border: 1px solid var(--Primary);
+  color: var(--blanco);
+  align-content: center;
+  &:hover {
+    background-color: transparent;
+    color: var(--Primary);
+    border: 1px solid var(--Primary);
+    cursor: pointer;
+  }
+}
+.buscador {
+  display: flex;
+  width: auto;
+  height: 2rem;
+  .buscador-header {
+    border: 1px solid var(--gris-claro);
+    padding-inline-start: 0.5rem;
+  }
+  .boton-buscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    background-color: var(--Primary);
+    text-align: center;
+    border: 1px solid var(--Primary);
+    color: var(--blanco);
+    &:hover {
+      background-color: transparent;
+      color: var(--negro);
+      border: 1px solid var(--Primary);
+      cursor: pointer;
+    }
+  }
+}
+.cerrar {
+  .cierrasesion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--rojo);
+    border-radius: 2rem;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    height: 2.5rem;
+    width: 9.5rem;
+    transition: all 0.3s ease 0s;
+    &:hover {
+      background-color: transparent;
+      color: var(--rojo);
+      border: 1px solid var(--rojo);
+      cursor: pointer;
+    }
+  }
+}
+
+.btn-registro {
+  background-color: var(--Primary);
+  height: 2.5rem;
+  width: 9.5rem;
+  cursor: pointer;
+  color: var(--contraste-color-letra);
+  font-weight: 500;
+  border: 1px solid var(--Primary);
+  border-radius: 2rem;
+  margin: 2rem;
+  transition: all 0.3s ease 0s;
+  &:hover {
+    background-color: transparent;
+    color: var(--Primary);
+    border: 1px solid var(--Primary);
+    cursor: pointer;
+  }
+}
+.btn-volver {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--rojo);
+  border-radius: 2rem;
+  background-color: var(--rojo);
+  color: var(--blanco);
+  height: 2.5rem;
+  width: 9.5rem;
+  transition: all 0.3s ease 0s;
+  &:hover {
+    background-color: transparent;
+    color: var(--rojo);
+    border: 1px solid var(--rojo);
+    cursor: pointer;
+  }
+}

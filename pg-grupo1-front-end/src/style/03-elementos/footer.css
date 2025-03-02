@@ -1,0 +1,85 @@
+.pie-de-pagina {
+  display: flex;
+}
+
+.footer-contenedor1,
+.footer-contenedor-dos,
+.imagenes-pie-grid {
+  flex: 1;
+  padding: 2rem;
+}
+.footer-contenedor1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo-nombre {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.nombre {
+  margin: 0.5rem;
+}
+.redes {
+  display: flex;
+  justify-content: center;
+  margin: 0.6rem;
+}
+.footer-redes {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-redes-sociales {
+  width: 2rem;
+  height: 2rem;
+}
+.footer-redes-sociales svg {
+  fill: var(--Primary);
+}
+
+.footer-contenedor-dos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-usuario .nombre-usuario {
+  background-color: var(--gris-claro);
+  border-radius: 1.3rem;
+  width: auto;
+  height: 2.5rem;
+  text-align: center;
+}
+.suscripcion {
+  align-items: center;
+  justify-items: center;
+}
+.imagenes-pie-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, minmax(10rem, 12rem));
+  gap: 1rem;
+}
+
+.imagenes-grids {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease 0s;
+}
+
+.imagenes-grids img {
+  border-radius: 1rem;
+  width: 12rem;
+  height: 8rem;
+}
+
+.imagenes-grids:hover {
+  transform: scale(1.12);
+  cursor: pointer;
+}

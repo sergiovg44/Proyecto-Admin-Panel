@@ -1,0 +1,38 @@
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  color: white;
+}
+.tabla-detalle {
+  display: inline;
+  width: 34%;
+  margin: 2.5rem auto; /* Centrar la tabla */
+  background-color: var(--color-tabla);
+  color: var(--Primary);
+  font-size: 1rem;
+}
+.tabla-detalle td {
+  padding: 0.75rem;
+}
+.tabla-detalle .td-titulo {
+  font-weight: 600;
+  color: var(--Primary);
+}
+.tabla-detalle tr:nth-child(even) {
+  display: flex;
+}
+.boton-volver {
+  padding: 0.75rem;
+  margin-bottom: 3rem;
+  background-color: var(--rojo);
+  color: var(--blanco);
+  border-radius: 1.5rem;
+  border: 0.1rem solid var(--rojo);
+  cursor: pointer;
+  font-size: 1rem;
+}
+.boton-volver:hover {
+  background-color: var(--blanco);
+  border: 0.1rem solid var(--rojo);
+  color: var(--rojo);
+}

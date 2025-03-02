@@ -1,0 +1,68 @@
+.contenedor-login {
+  background-image: url("../../imagenes/Fondo-login.jpg");
+  height: 66rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.acceso {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--Secondary);
+  border-radius: 1rem;
+  gap: 1rem;
+}
+
+.acceso .titulo {
+  color: var(--Primary);
+  text-transform: uppercase;
+}
+
+.acceso .error {
+  color: var(--Error);
+  font-weight: bolder;
+}
+
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 0.3rem;
+}
+
+.formulario-login .texto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formulario-login .texto .identificacion {
+  color: var(--Primary);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.formulario-login .texto svg {
+  fill: var(--Primary);
+}
+
+.formulario-login input {
+  width: 15rem;
+  height: 2rem;
+  padding: 0.2rem;
+  background-color: var(--Beige-claro);
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--Beige-oscuro);
+}
+
+.formulario-login input::placeholder {
+  color: var(--Beige-oscuro);
+}

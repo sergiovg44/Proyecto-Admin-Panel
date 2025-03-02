@@ -1,0 +1,18 @@
+/*1. Variables y ajustes*/
+@import url("./style/00-ajustes/variables.css");
+
+/*2.Reset de Estilos*/
+@import url("./style/02-generico/reset.css");
+
+/* 3. Estilos generales de elementos */
+@import url("./style/03-elementos/encabezado.css");
+@import url("./style/03-elementos/contenido.css");
+@import url("./style/03-elementos/listado-usuarios.css");
+@import url("./style/03-elementos/nuevo-usuario.css");
+@import url("./style/03-elementos/Detalles-Usuarios.css");
+@import url("./style/03-elementos/login.css");
+@import url("./style/03-elementos/footer.css");
+
+/* 4. Componentes*/
+@import url("./style/04-componentes/botones.css");
+@import url("./style/04-componentes/input.css");

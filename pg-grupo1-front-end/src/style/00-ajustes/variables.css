@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  --font-primary: "Jost", sans-serif;
+
+  --Primary: #234241;
+  --Secondary: #b39775;
+  --Beige-claro: #dabfa4;
+  --Beige-oscuro: #90744c;
+  --Error: #b81e1e;
+
+  --verde: #4e7856;
+  --blanco: #f1f1f1;
+  --gris-claro: #ccc;
+  --negro: #0b0b0b;
+  --rojo: #b52a2a;
+
+  --linea-color: #111111;
+  --contraste-color: #0d2323;
+  --contraste-color-letra: #ffffff;
+  --color-letra: #000000;
+  --color-hover: #42685b;
+  --tabla-enca: #234241;
+  --color-hover-boton: #817f7f;
+  --color-tabla: rgba(255, 255, 255, 0.8);
+  --color-contorno-tabla: rgba(255, 255, 255, 0.7);
+  --color-contenido: rgba(255, 255, 255, 0.9);
+  --color-hover-letra: #f0ebeb;
+
+  --color-fondo: #f4f4f4;
+  --color-transparente: rgb(255 255 255 / 0.6);
+  --color-cabecera: rgb(46 46 46 / 0.8);
+  --color-texto-cabecera: #000;
+  --color-texto: #333;
+  --color-texto-secundario: #555;
+  --color-fila-par: rgb(249, 249, 249, 0.8);
+  --color-boton: #464646;
+  --color-boton-hover: #464646;
+  --sombra: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --fuente-principal: Arial, sans-serif;
+}
